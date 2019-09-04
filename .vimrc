@@ -49,6 +49,14 @@ set shiftwidth=2 " when indenting with '>', use 2 spaces width
 set autoindent " automatically set indent of new line
 set smartindent
 
+""VIM-PLUG script install
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
+
 """" PLUGINS
 " All Plugins must go below this line
 call plug#begin('~/.vim/plugged')
