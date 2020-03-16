@@ -22,5 +22,4 @@ fundle init
 alias downie='cd ~/Downloads/'
 alias python=python3
 alias pip=pip3
-alias eclipse=xiwi eclipse/eclipse
-alias workbench=xiwi mysql-workbench
+alias open=xdg-open
