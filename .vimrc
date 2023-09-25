@@ -76,7 +76,6 @@ Plug 'mattn/emmet-vim' " emmet for vim
 Plug 'nvie/vim-flake8' " python pep8
 Plug 'tmhedberg/SimpylFold' "folding code
 Plug 'vim-scripts/indentpython.vim' "auto-indentation python
-Plug 'ycm-core/YouCompleteMe'
 
 
 "" All of your Plugins must be added before the following line
