@@ -23,3 +23,5 @@ alias downie='cd ~/Downloads/'
 alias python=python3
 alias pip=pip3
 alias open=xdg-open
+alias k='kubectl'
+alias ls='ls --color=auto'
